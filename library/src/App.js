@@ -49,11 +49,11 @@ const App = () => {
 
 	return (
 		<div className="container">
-			<h1 style={{textAlign:"center"}}>Pavana's Library Management</h1>
+			<h1 style={{textAlign:"center", color:"white"}}>Pavana's Library Management</h1>
 			<div className="flex-row">
 				<div className="flex-large">
           <div className="flex-large">
-					<h2 style={{textAlign:"center", color:"red"}}>Books and its prices</h2>
+					<h2 style={{textAlign:"center", color:"yellow"}}>Books and its prices</h2>
           {/* <button class="float-right btn1" 
           
            style={{marginLeft:"25rem"}}  
@@ -89,7 +89,7 @@ const App = () => {
 						</Fragment>
 					) : (
 						<Fragment>
-							<h2 style={{textAlign:"center"}}>Add a Book</h2>
+							<h2 style={{textAlign:"center" , color:"white"}}>Add a Book</h2>
 							<LibraryForm addBook={addBook} />
 						</Fragment>
 					)}
